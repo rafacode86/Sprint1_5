@@ -6,9 +6,9 @@
     volem un mètode makeSound() que mostri un missatge diferent si es tracta 
     d’un gos (per exemple,“Bup, bup!”) o un gat (per exemple “Meu!”).*/
 
-    class Animal {
+    abstract class Animal {
         public function makeSound() {
-            echo "Specify type of animal";
+            
         }
     }
 
