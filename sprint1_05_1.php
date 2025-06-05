@@ -7,9 +7,9 @@
     d’un gos (per exemple,“Bup, bup!”) o un gat (per exemple “Meu!”).*/
 
     abstract class Animal {
-        public function makeSound() {
+        abstract public function makeSound();
             
-        }
+        
     }
 
     class Dog extends Animal {
